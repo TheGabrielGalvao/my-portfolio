@@ -29,7 +29,7 @@ export default function CustomLayout({
           <ProfileCard />
         </div>
 
-        <div className="flex w-full bg-primary rounded-2xl p-md">
+        <div className="flex w-full bg-primary rounded-2xl p-md text-white">
           {children}
         </div>
       </div>

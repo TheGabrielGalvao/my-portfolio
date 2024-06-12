@@ -17,7 +17,7 @@ export const ProfileCard = () => {
       </div>
 
       <div className="flex flex-col gap-xs items-center justify-center">
-        <h1 className="text-2xl">Gabriel Galvão</h1>
+        <h1 className="text-2xl text-white">Gabriel Galvão</h1>
 
         <span className="px-xs py-xs w-fit bg-light text-gray-400 font-light rounded-xl">
           Web Developer/Designer
@@ -57,7 +57,7 @@ export const ProfileCard = () => {
           <span className="bg-primary p-2 rounded-xl">
             <MdWhatsapp className="text-success" size={32} />
           </span>
-          <span className="flex flex-col">
+          <span className="flex flex-col text-white">
             <small>Whatsapp</small>
             <strong className="text-sm font-thin">(43) 98857-8911</strong>
           </span>
@@ -70,7 +70,7 @@ export const ProfileCard = () => {
           <span className="bg-primary p-2 rounded-xl">
             <MdEmail className="text-info" size={32} />
           </span>
-          <span className="flex flex-col">
+          <span className="flex flex-col text-white">
             <small>E-mail</small>
             <strong className="text-sm font-thin">
               gabriel.galvao736@gmail.com
@@ -82,7 +82,7 @@ export const ProfileCard = () => {
           <span className="bg-primary p-2 rounded-xl">
             <MdLocationCity className="text-secondary" size={32} />
           </span>
-          <span className="flex flex-col">
+          <span className="flex flex-col text-white">
             <small>Cidade</small>
             <strong className="text-sm font-thin">Lupionópolis - PR</strong>
           </span>
